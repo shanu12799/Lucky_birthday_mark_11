@@ -1,10 +1,12 @@
 :root {
   --background-dark: #7c3aed;
   --black: #000;
+   --primary-color: #000000;
 }
 
 html {
-  background-color: var(--background-dark);
+ background-color: #2a2a72;
+background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
   color: var(--black);
   height: 100%;
 }
@@ -38,9 +40,10 @@ label {
 input {
   border-radius: 5px;
   padding: 0.5rem;
-  border: transparent;
+  /*border: transparent;*/
   font-size: large;
   margin: 1rem 0;
+   border: 2px solid var(--primary-color);
 }
 
 #calculate-number {
@@ -49,8 +52,9 @@ input {
 }
 
 #calculate-number {
-  background-color: var(--background-dark);
-  border: 2px solid var(--black);
+    background-color: #2a2a72;
+background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  border: outline
   color: var(--black);
   padding: 0.4rem 1rem;
   border-radius: 0.5rem;
