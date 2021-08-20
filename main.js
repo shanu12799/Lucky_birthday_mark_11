@@ -9,6 +9,7 @@ const calculateSum = (date) => {
   for (let digit of date) {
     sum = sum + Number(digit);
   }
+  console.log(sum)
   return sum;
 };
 
@@ -23,6 +24,7 @@ const checkIsNumberLucky = (sumOfDate, numberToCheck) => {
 const showMessage = (message) => {
   displayMessage.innerText = message;
 };
+
 
 checkButton.addEventListener("click", () => {
   const date = dateOfBirth.value;
